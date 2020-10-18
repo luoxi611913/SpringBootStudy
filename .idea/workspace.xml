@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d730e674-a067-487a-98e8-3da9b7e64b46" name="Default Changelist" comment="" />
+    <list default="true" id="d730e674-a067-487a-98e8-3da9b7e64b46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ipInKgr2AJr949nQ5pysUt3QCm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,11 +48,44 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpbootTest.testYaml">
+    <configuration name="SpBootTest.testYaml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootStudy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpBootTest" />
+      <option name="METHOD_NAME" value="testYaml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpbootTest.testYaml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springbootStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.SpbootTest" />
+      <option name="METHOD_NAME" value="testYaml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springbootStudy" />
       <extension name="coverage">
@@ -58,7 +101,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpbootTest.testYaml" />
         <item itemvalue="Spring Boot.HelloApplication" />
+        <item itemvalue="JUnit.SpBootTest.testYaml" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602598271161</updated>
       <workItem from="1602598276000" duration="5560000" />
+      <workItem from="1602979911375" duration="3854000" />
     </task>
     <servers />
   </component>
@@ -96,41 +142,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602599040496" />
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1602984543871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602984543871" />
     <state x="544" y="153" width="631" height="517" key="FileChooserDialogImpl" timestamp="1602605239703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="153" width="631" height="517" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602605239703" />
-    <state width="1493" height="112" key="GridCell.Tab.0.bottom" timestamp="1602608926396">
+    <state width="1493" height="311" key="GridCell.Tab.0.bottom" timestamp="1602984811971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602608926396" />
-    <state width="1493" height="112" key="GridCell.Tab.0.center" timestamp="1602608926396">
+    <state width="1493" height="311" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602984811971" />
+    <state width="1493" height="311" key="GridCell.Tab.0.center" timestamp="1602984811971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602608926396" />
-    <state width="1493" height="112" key="GridCell.Tab.0.left" timestamp="1602608926396">
+    <state width="1493" height="311" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602984811971" />
+    <state width="1493" height="311" key="GridCell.Tab.0.left" timestamp="1602984811971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602608926396" />
-    <state width="1493" height="112" key="GridCell.Tab.0.right" timestamp="1602608926396">
+    <state width="1493" height="311" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602984811971" />
+    <state width="1493" height="311" key="GridCell.Tab.0.right" timestamp="1602984811971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="112" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602608926396" />
-    <state width="1493" height="152" key="GridCell.Tab.1.bottom" timestamp="1602600196166">
+    <state width="1493" height="311" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602984811971" />
+    <state width="1493" height="311" key="GridCell.Tab.1.bottom" timestamp="1602984755321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602600196166" />
-    <state width="1493" height="152" key="GridCell.Tab.1.center" timestamp="1602600196166">
+    <state width="1493" height="311" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602984755321" />
+    <state width="1493" height="311" key="GridCell.Tab.1.center" timestamp="1602984755321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602600196166" />
-    <state width="1493" height="152" key="GridCell.Tab.1.left" timestamp="1602600196165">
+    <state width="1493" height="311" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602984755321" />
+    <state width="1493" height="311" key="GridCell.Tab.1.left" timestamp="1602984755321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602600196165" />
-    <state width="1493" height="152" key="GridCell.Tab.1.right" timestamp="1602600196166">
+    <state width="1493" height="311" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602984755321" />
+    <state width="1493" height="311" key="GridCell.Tab.1.right" timestamp="1602984755321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="152" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602600196166" />
+    <state width="1493" height="311" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602984755321" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1602981753886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1602981753886" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1602982385514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602982385514" />
   </component>
 </project>

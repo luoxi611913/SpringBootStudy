@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+person:
+  uname: 罗玺
+  age: 10
+  dog:
+    dname: tom
+    dtype: kk
+  maps: {k1: v1,k2: v3}
+  lists:
+    - ss
+    - s
+    - ff
