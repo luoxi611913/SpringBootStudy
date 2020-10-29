@@ -1,2 +1,6 @@
 D:\springbootStudy\src\main\java\com\lx\controller\HelloController.java
 D:\springbootStudy\src\main\java\com\lx\HelloApplication.java
+D:\springbootStudy\src\main\java\com\lx\intercepters\LoginInterCepter.java
+D:\springbootStudy\src\main\java\com\lx\config\MyMvcConfig.java
+D:\springbootStudy\src\main\java\com\lx\model\Dog.java
+D:\springbootStudy\src\main\java\com\lx\model\Person.java
