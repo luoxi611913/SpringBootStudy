@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>pdf上传Demo</title>
+</head>
+<body>
+<h1>  文件2将会拼接至文件1之后 </h1>
+<h1>  推荐使用UC、谷歌浏览器</h1>
+<form method="POST" enctype="multipart/form-data" action="/demo/pdfdo">
+    <p>文件1：<input type="file" name="file" /></p>
+    <p>文件2：<input type="file" name="file" /></p>
+    <p><input type="submit" value="合成" /></p>
+</form>
+</body>
+</html>
