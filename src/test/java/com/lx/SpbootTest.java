@@ -17,6 +17,7 @@ public class SpbootTest {
     @Test
     public void testYaml(){
 
-        System.out.println(person);
+
+
     }
 }
