@@ -1,5 +1,7 @@
 package com.lx.service;
 
+import com.lx.model.MailModel;
+
 public interface MailService {
     /**
      * 发送文本邮件
@@ -8,4 +10,9 @@ public interface MailService {
      * @param content 内容
      */
     public void sendSimpleMail(String to, String subject, String content);
+
+    /*
+    插入一个新计划
+     */
+    public void insertNewSchedu(MailModel mailModel);
 }

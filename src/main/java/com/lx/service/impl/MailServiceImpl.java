@@ -1,5 +1,7 @@
 package com.lx.service.impl;
 
+import com.lx.dao.MailDao;
+import com.lx.model.MailModel;
 import com.lx.service.MailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,6 +17,9 @@ public class MailServiceImpl implements MailService {
      */
     @Autowired
     private JavaMailSender mailSender;
+
+    @Autowired
+    private MailDao mailDao;
 
     /**
      * 配置文件中我的qq邮箱
@@ -42,5 +47,10 @@ public class MailServiceImpl implements MailService {
         message.setText(content);
         //发送邮件
         mailSender.send(message);
+    }
+
+    @Override
+    public void insertNewSchedu(MailModel mailModel) {
+        mailDao.insertNewSchedu(mailModel);
     }
 }

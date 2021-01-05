@@ -16,6 +16,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
         registry.addViewController("/ddd").setViewName("index");
         registry.addViewController("/demo/excelupload").setViewName("exceldemo");
+        registry.addViewController("/demo/mail").setViewName("mailDemo");
     }
 
     @Override

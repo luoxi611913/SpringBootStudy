@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>定制计划测试</title>
+</head>
+<body>
+<h1>  选择你想要设置的信息与日期</h1>
+<form method="POST" action="/addTask">
+    <table>
+        <tr>
+            <td>
+                <h3>你想发送给:</h3>
+            </td>
+            <td>
+                <input type="text" value="" name="toUser"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>标题:</h3>
+            </td>
+            <td>
+                <input type="text" value="" name="mailTitle"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>内容:</h3>
+            </td>
+            <td>
+                <input type="text" value="" name="mailContents"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>预定 月-日-时 例:  </h3><h3>12-25-18 表示预定12月25号下午六点 </h3>
+            </td>
+            <td>
+                <input type="text" value="" name="doDate"/>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="提交计划"/>
+</form>
+</body>
+</html>
